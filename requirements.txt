@@ -1,0 +1,8 @@
+cloudpickle>=1.0.0,<1.4
+pex==2.1.1
+conda-pack
+pip>=18.1
+pyarrow
+fire
+tensorflow==1.15.2
+pyspark==2.4.5
