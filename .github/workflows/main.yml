@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install --isolated --no-cache-dir -r requirements.txt
 
   build2:
     runs-on: ubuntu-latest
@@ -33,7 +33,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install --isolated --no-cache-dir -r requirements.txt
 
 
   build3:
@@ -48,4 +48,4 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install --isolated --no-cache-dir -r requirements.txt
