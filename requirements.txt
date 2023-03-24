@@ -4,5 +4,5 @@ conda-pack
 pip>=18.1
 pyarrow
 fire
-tensorflow==1.15.2
+tensorflow==2.11.1
 pyspark==2.4.5
